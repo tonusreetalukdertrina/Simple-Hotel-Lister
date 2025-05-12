@@ -3,15 +3,25 @@
 Project Description: Simple Hotel Lister is a full-stack web application implying Django and React.js that allows users to search for hotels in specific locations, filter results by star rating and pool availability, view hotel details, and bookmark their favorites. Also, this project supports light/dark theme toggling and includes a secure user registration and login system.
 
 Setup and Installation Instruction: 
+
 For backend, 
+
 python -m venv env_site
+
 .\env_site\Scripts\activate
+
 pip install django djangorestframework pygments
+
 django-admin startproject Backend
+
 cd Backend
+
 python.exe .\manage.py startapp hotel_lister_backend
+
 python.exe .\manage.py makemigrations
+
 python.exe .\manage.py migrate
+
 python.exe .\manage.py runserver
 
 For frontend,
