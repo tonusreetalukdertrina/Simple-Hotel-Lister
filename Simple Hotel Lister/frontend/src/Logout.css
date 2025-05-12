@@ -1,0 +1,31 @@
+.logout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 15px 30px;
+  color: white;
+}
+
+.logout-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.logout-buttons button {
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-buttons button:last-child {
+  background-color: #ef4444;
+}
+
+.logout-buttons button:hover {
+  opacity: 0.9;
+}
