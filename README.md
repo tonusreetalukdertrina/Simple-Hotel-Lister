@@ -25,17 +25,25 @@ python.exe .\manage.py migrate
 python.exe .\manage.py runserver
 
 For frontend,
+
 npx create-react-app frontend
+
 cd frontend
+
 npm start
 
 Instructions for Running the Project Locally: 
+
 For backend,
+
 cd Backend
+
 python.exe .\manage.py runserver
 
 For frontend,
+
 cd frontend
+
 npm start
 
 Data Handling: Hotel data is managed using static JSON file stored in the backend. This approach ensures consistent testing and simplified setup.
